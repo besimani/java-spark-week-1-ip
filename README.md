@@ -9,7 +9,7 @@
 - Mobile: +254721790293
 
 ## About this project
-- Its a bout Caeser Cipher
+- Its a bout a command line application of Caeser Cipher
 
 ## Setup Instructions
 - git clone https://github.com/besimani/java-spark-week-1-ip
