@@ -9,7 +9,7 @@ Beranard Amaitsa Simani
 - Mobile: +254721790293
 
 ## About this project 
-Its a bout Caeser Cipher
+- Its about command line of Caeser Cipher
 
 ## Setup Instructions
 - git clone https://github.com/besimani/java-spark-week-1-ip
