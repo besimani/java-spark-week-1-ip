@@ -3,7 +3,7 @@ package ke.co.safaricom.javasparkweek1ip;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 
-public class HelloController {
+public class Service {
     @FXML
     private Label welcomeText;
 

@@ -1,27 +1,27 @@
 package ke.co.safaricom.javasparkweek1ip;
 
-import java.util.scanner;
+import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) {
-        Scanner Scanner = new scanner(System.in);
-        system.out.print("Welcome to Caeser Cipher Application");
+        Scanner Scanner = new Scanner(System.in);
+        System.out.print("Welcome to Caeser Cipher Application");
 
         while(true){
             System.out.print("Enter a message: ");
-            String message = scanner.next();
+            String message = Scanner.next();
 
             System.out.print("Enter a process (e/d): ");
-            String process = scanner.next();
+            String process = Scanner.next();
 
             System.out.print("Enter a key: ");
-            int key = scanner.nextInt();
+            int key = Scanner.nextInt();
 
             System.out.print("Do you want to continue (c/e): ");
-            String nextStep = scanner.next();
+            String nextStep = Scanner.next();
             if(!nextStep.startsWith("c")){
-                system.out.print("Thank You!");
+                System.out.print("Thank You!");
                 break;
             }
         }
