@@ -20,13 +20,14 @@ public class Cipher {
         return key;
     }
 
-    public void setKey(int key) {
+    public String setKey(int key) {
         this.key = key;
-
-    public String encrypt(){
+        return message;
+    }
+    public String encrypt() {
         char[] message = this.getMessage().toCharArray();
         String output = "";
-        for (int i = 0; i < message.length; 1++){
+        for (int i = 0; i < message.length; i++) {
             char c = message[i];
             int charPos = this.alphabets.indexOf(c);
             int newPos = charPos + this.getKey();
@@ -42,5 +43,5 @@ public class Cipher {
 
     }
 
-}
+
 

@@ -26,7 +26,7 @@ public class Main {
 
             if(process.startsWith("e")){
                 output = cipher.encrypt();
-            }else {
+            } else {
                output = cipher.decrypt();
             }
 
