@@ -1,4 +1,4 @@
-package ke.co.safaricom.javasparkweek1ip;
+package ke.co.safaricom;
 
 public class Cipher {
     private String message;
@@ -20,9 +20,10 @@ public class Cipher {
         return key;
     }
 
-    public String setKey(int key) {
+    void setKey(int key) {
         this.key = key;
-        return message;
+        String s = "java.lang.string";
+
     }
     public String encrypt() {
         char[] message = this.getMessage().toCharArray();

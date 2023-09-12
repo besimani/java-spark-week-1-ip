@@ -1,4 +1,4 @@
-package ke.co.safaricom.javasparkweek1ip;
+package ke.co.safaricom;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
