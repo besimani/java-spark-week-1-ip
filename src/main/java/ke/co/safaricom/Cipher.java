@@ -20,22 +20,21 @@ public class Cipher {
         return key;
     }
 
-    void setKey(int key) {
+    public void setKey(int key) {
         this.key = key;
-        String s = "java.lang.string";
 
     }
     public String encrypt() {
         char[] message = this.getMessage().toCharArray();
-        String output = "";
+        StringBuilder output = new StringBuilder();
         for (int i = 0; i < message.length; i++) {
             char c = message[i];
             int charPos = this.alphabets.indexOf(c);
             int newPos = charPos + this.getKey();
             char newChar = this.alphabets.charAt(newPos);
-            output = output + newChar;
+            output.append(newChar);
         }
-        return output;
+        return output.toString();
     }
 
     public String decrypt(){
